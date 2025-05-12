@@ -1,4 +1,4 @@
-mak#  We need the qt libraries, we want compiler warnings on, and this is a release version of the program
+#  We need the qt libraries, we want compiler warnings on, and this is a release version of the program
 CONFIG += qt
 CONFIG += warn_on
 CONFIG += release
