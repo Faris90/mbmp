@@ -1570,7 +1570,7 @@ void PlayerControl::popupOptionsMenu()
 void PlayerControl::changeVisualizer(QAction* act)
 {
       QString vis = act->text();
-      gstiface->changeVisualizer(vis);
+      gstiface->changeVisualizer(vis.remove("&"));
 
    return;
 }

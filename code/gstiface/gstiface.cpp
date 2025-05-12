@@ -537,7 +537,7 @@ void GST_Interface::changeVisualizer(const QString& vis)
   // this should not fail, vis and the selected_factory should both
   // exist in the vismap, and the function that sends us here gets 
   // the vis string from the map, but just in case
-  selected_factory = vismap.value(vis);
+  selected_factory = vismap.value(vis.remove("&"));
   if (!selected_factory) {
     gst_element_post_message (pipeline_playbin,
       gst_message_new_application (GST_OBJECT (pipeline_playbin),
