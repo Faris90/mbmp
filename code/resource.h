@@ -40,7 +40,7 @@ DEALINGS IN THE SOFTWARE.
 //      QApplication (not user visible)
 //  QSettings (visible in filesystem only)
 //      System Logging (visible in system logs only)
-#define LONG_NAME "MBMP Player"
+#define LONG_NAME "Q4Player"
 #define ORG "mbmp"
 #define APP "mbmp"
 #define LOG_NAME "MBMP"

@@ -177,7 +177,7 @@
     <name>PlayerControl</name>
     <message>
         <location filename="../code/playerctl/ui/playerctl.ui" line="14"/>
-        <source>MBMP Player</source>
+        <source>Q4Player</source>
         <translation></translation>
     </message>
     <message>

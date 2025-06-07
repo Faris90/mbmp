@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MBMP Player</string>
+   <string>Q4Player</string>
   </property>
   <property name="sizeGripEnabled">
    <bool>true</bool>
